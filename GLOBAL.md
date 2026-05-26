@@ -73,6 +73,13 @@ AP-1238: Forward claim requestedAmount to staking-api for EIP-712 assertion
 
 ---
 
+## Skill 安装规范
+
+- 安装 skill 时，必须安装到 `.agents/skills/` 目录下，禁止安装到 `.claude/commands/` 目录。
+- 全局安装时使用 `~/.agents/skills/`，本地安装时使用项目根目录下的 `.agents/skills/`。
+
+---
+
 ## Code Review 规范
 
 - 进行 Code Review 时，禁止直接修改代码；应先列出所有需要改动的点，经用户确认后再执行。
